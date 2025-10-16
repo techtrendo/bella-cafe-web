@@ -69,11 +69,13 @@ export default {
       backgroundImage: {
         'gradient-warm': 'var(--gradient-warm)',
         'gradient-gold': 'var(--gradient-gold)',
+        'gradient-green': 'var(--gradient-green)',
       },
       boxShadow: {
         'soft': 'var(--shadow-soft)',
         'medium': 'var(--shadow-medium)',
         'gold': 'var(--shadow-gold)',
+        'green': 'var(--shadow-green)',
       },
       keyframes: {
         "accordion-down": {

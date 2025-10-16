@@ -8,51 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Warm cream background */
-    --background: 40 30% 97%;
-    --foreground: 25 40% 15%;
+    /* Light cream background */
+    --background: 50 20% 98%;
+    --foreground: 150 40% 15%;
 
     /* Card with subtle warmth */
-    --card: 40 20% 99%;
-    --card-foreground: 25 40% 15%;
+    --card: 50 15% 99%;
+    --card-foreground: 150 40% 15%;
 
     /* Popover */
-    --popover: 40 20% 99%;
-    --popover-foreground: 25 40% 15%;
+    --popover: 50 15% 99%;
+    --popover-foreground: 150 40% 15%;
 
-    /* Rich coffee brown primary */
-    --primary: 25 40% 30%;
-    --primary-foreground: 40 20% 98%;
+    /* Deep green primary */
+    --primary: 150 60% 20%;
+    --primary-foreground: 50 20% 98%;
 
-    /* Soft cream secondary */
-    --secondary: 40 25% 90%;
-    --secondary-foreground: 25 40% 20%;
+    /* Soft green secondary */
+    --secondary: 150 30% 85%;
+    --secondary-foreground: 150 60% 15%;
 
     /* Muted tones */
-    --muted: 40 20% 92%;
-    --muted-foreground: 25 20% 45%;
+    --muted: 150 15% 90%;
+    --muted-foreground: 150 20% 40%;
 
-    /* Elegant gold accent */
-    --accent: 45 95% 55%;
-    --accent-foreground: 25 40% 15%;
+    /* Rich golden accent */
+    --accent: 45 95% 50%;
+    --accent-foreground: 150 60% 15%;
 
     /* Destructive */
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 40 20% 98%;
+    --destructive-foreground: 50 20% 98%;
 
     /* Borders and inputs */
-    --border: 40 20% 85%;
-    --input: 40 20% 90%;
-    --ring: 45 95% 55%;
+    --border: 150 20% 85%;
+    --input: 150 15% 90%;
+    --ring: 45 95% 50%;
 
     --radius: 0.75rem;
 
     /* Gradients and special effects */
-    --gradient-warm: linear-gradient(135deg, hsl(40 30% 97%) 0%, hsl(35 25% 93%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(45 95% 60%) 0%, hsl(40 85% 50%) 100%);
-    --shadow-soft: 0 4px 20px -2px hsl(25 40% 30% / 0.08);
-    --shadow-medium: 0 8px 30px -4px hsl(25 40% 30% / 0.12);
-    --shadow-gold: 0 4px 16px -2px hsl(45 95% 55% / 0.3);
+    --gradient-warm: linear-gradient(135deg, hsl(150 30% 95%) 0%, hsl(150 25% 90%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(45 95% 55%) 0%, hsl(40 85% 45%) 100%);
+    --gradient-green: linear-gradient(135deg, hsl(150 60% 25%) 0%, hsl(150 50% 15%) 100%);
+    --shadow-soft: 0 4px 20px -2px hsl(150 40% 20% / 0.08);
+    --shadow-medium: 0 8px 30px -4px hsl(150 40% 20% / 0.12);
+    --shadow-gold: 0 4px 16px -2px hsl(45 95% 50% / 0.35);
+    --shadow-green: 0 4px 20px -2px hsl(150 60% 20% / 0.2);
   }
 }
 
